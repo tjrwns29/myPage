@@ -18,6 +18,7 @@ function App() {
           Learn React
         </a>
       </header>
+      반갑습니다^^
     </div>
   );
 }
