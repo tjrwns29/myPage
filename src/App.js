@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <div className="bgcr"></div> {/*BackGround Color*/}
       <span className="NowTime">{NowTime}</span> {/* MowTime */}
-      <a href="./App.js" className="Header">Mechanical Engineering 21s</a> {/* Title */}
+      <a href="./index.html" className="Header">Mechanical Engineering 21s</a> {/* Title */}
     </div>
   );
 }
