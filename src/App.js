@@ -1,10 +1,17 @@
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
+import moment from 'moment';
+import 'moment/locale/ko';
 
 function App() {
+  // NowTime
+  const NowTime = moment().format('YYYY년 MM월 DD일 HH : mm : ss')
+  //
   return (
     <div className="App">
-      Hello React!!1
+      <div className="bgcr"></div> {/*BackGround Color*/}
+      <span className="NowTime">{NowTime}</span> {/* MowTime */}
+      <a href="./App.js" className="Header">Mechanical Engineering 21</a> {/* Title */}
     </div>
   );
 }
