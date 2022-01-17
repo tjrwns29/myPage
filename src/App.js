@@ -1,4 +1,3 @@
-import React, {useState} from 'react';
 import './App.css';
 import moment from 'moment';
 import 'moment/locale/ko';

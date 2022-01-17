@@ -5,7 +5,7 @@ a {
 .bgcr {
   position: absolute;
   background-color: black;
-  padding: 100px;
+  padding: 50px;
   width: 100%;
   display: flex;
   z-index: -1;
@@ -26,4 +26,5 @@ a {
   font-size: 16px;
   font-weight: bold;
   color: white;
+  margin-bottom: 13px;
 }
