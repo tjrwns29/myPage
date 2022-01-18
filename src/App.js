@@ -4,7 +4,10 @@ import 'moment/locale/ko';
 
 function App() {
   // NowTime
-  const NowTime = moment().format('YYYY년 MM월 DD일 HH : mm : ss')
+  const NowTime = () => {
+    moment().format('YYYY년 MM월 DD일 HH : mm : ss')
+  }
+  setInterval(NowTime, 1000);
   //
   return (
     <div className="App">
