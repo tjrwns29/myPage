@@ -3,6 +3,7 @@ import Header from './Components/Header';
 import Main from './Components/Main';
 import Footer from './Components/Footer';
 import SideBar from './Components/SideBar';
+import Time from './Components/Time';
 import './App.css';
 
 function App() {
@@ -10,13 +11,11 @@ function App() {
       <div>
         <SideBar></SideBar>
         <div className='container'>
-          <div className='Time'>
-            <div>0000년 00월 00일 00:00:00</div>
-          </div>
-        <Header></Header>
-        <Main></Main>
-        <Footer></Footer>
+          <Time></Time>
+          <Header></Header>
+          <Main></Main>
         </div>
+          <Footer></Footer>
       </div>
     );
 }
