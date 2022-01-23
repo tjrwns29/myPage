@@ -87,7 +87,7 @@ a {
   height: 100%;
   width: 30%;
   top: 0;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .Sidecontainer {
