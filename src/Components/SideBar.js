@@ -16,6 +16,42 @@ class SideBar extends Component {
             <a href='#'><li> : here's sidebar</li></a>
           </ul>
         </div>
+        <button className='sideBarBtn'>here's button</button>
+        <div className="Sidecontainer">
+          <ul className='sideBarContent'>
+            <a href='#'><li> : here's sidebar</li></a>
+            <a href='#'><li> : here's sidebar</li></a>
+            <a href='#'><li> : here's sidebar</li></a>
+            <a href='#'><li> : here's sidebar</li></a>
+            <a href='#'><li> : here's sidebar</li></a>
+            <a href='#'><li> : here's sidebar</li></a>
+            <a href='#'><li> : here's sidebar</li></a>
+          </ul>
+        </div>
+        <button className='sideBarBtn'>here's button</button>
+        <div className="Sidecontainer">
+          <ul className='sideBarContent'>
+            <a href='#'><li> : here's sidebar</li></a>
+            <a href='#'><li> : here's sidebar</li></a>
+            <a href='#'><li> : here's sidebar</li></a>
+            <a href='#'><li> : here's sidebar</li></a>
+            <a href='#'><li> : here's sidebar</li></a>
+            <a href='#'><li> : here's sidebar</li></a>
+            <a href='#'><li> : here's sidebar</li></a>
+          </ul>
+        </div>
+        <button className='sideBarBtn'>here's button</button>
+        <div className="Sidecontainer">
+          <ul className='sideBarContent'>
+            <a href='#'><li> : here's sidebar</li></a>
+            <a href='#'><li> : here's sidebar</li></a>
+            <a href='#'><li> : here's sidebar</li></a>
+            <a href='#'><li> : here's sidebar</li></a>
+            <a href='#'><li> : here's sidebar</li></a>
+            <a href='#'><li> : here's sidebar</li></a>
+            <a href='#'><li> : here's sidebar</li></a>
+          </ul>
+        </div>
       </div>
     );
   }
