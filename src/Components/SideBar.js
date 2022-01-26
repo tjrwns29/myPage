@@ -1,60 +1,26 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 
-class SideBar extends Component {
-  render() {
-    return(
-      <div className='sidebar'>
-        <button className='sideBarBtn'>here's button</button>
-        <div className="Sidecontainer">
-          <ul className='sideBarContent'>
-            <a href='#'><li> : here's sidebar</li></a>
-            <a href='#'><li> : here's sidebar</li></a>
-            <a href='#'><li> : here's sidebar</li></a>
-            <a href='#'><li> : here's sidebar</li></a>
-            <a href='#'><li> : here's sidebar</li></a>
-            <a href='#'><li> : here's sidebar</li></a>
-            <a href='#'><li> : here's sidebar</li></a>
-          </ul>
-        </div>
-        <button className='sideBarBtn'>here's button</button>
-        <div className="Sidecontainer">
-          <ul className='sideBarContent'>
-            <a href='#'><li> : here's sidebar</li></a>
-            <a href='#'><li> : here's sidebar</li></a>
-            <a href='#'><li> : here's sidebar</li></a>
-            <a href='#'><li> : here's sidebar</li></a>
-            <a href='#'><li> : here's sidebar</li></a>
-            <a href='#'><li> : here's sidebar</li></a>
-            <a href='#'><li> : here's sidebar</li></a>
-          </ul>
-        </div>
-        <button className='sideBarBtn'>here's button</button>
-        <div className="Sidecontainer">
-          <ul className='sideBarContent'>
-            <a href='#'><li> : here's sidebar</li></a>
-            <a href='#'><li> : here's sidebar</li></a>
-            <a href='#'><li> : here's sidebar</li></a>
-            <a href='#'><li> : here's sidebar</li></a>
-            <a href='#'><li> : here's sidebar</li></a>
-            <a href='#'><li> : here's sidebar</li></a>
-            <a href='#'><li> : here's sidebar</li></a>
-          </ul>
-        </div>
-        <button className='sideBarBtn'>here's button</button>
-        <div className="Sidecontainer">
-          <ul className='sideBarContent'>
-            <a href='#'><li> : here's sidebar</li></a>
-            <a href='#'><li> : here's sidebar</li></a>
-            <a href='#'><li> : here's sidebar</li></a>
-            <a href='#'><li> : here's sidebar</li></a>
-            <a href='#'><li> : here's sidebar</li></a>
-            <a href='#'><li> : here's sidebar</li></a>
-            <a href='#'><li> : here's sidebar</li></a>
-          </ul>
-        </div>
-      </div>
-    );
+function Sidebar() {
+  const [isOpen, setMenu] = useState(false);
+  const toggleMenu = () => {
+    setMenu(isOpen => !isOpen);
   }
+  return(
+    <div className='sidebar'>
+      <button className='sideBarBtn' onClick={() => toggleMenu()}>here's button</button>
+      <div className="Sidecontainer">
+        <ul className={isOpen ? 'sideBarContent' : 'hideContents' }>
+          <a href='#'><li> : here's sidebar</li></a>
+          <a href='#'><li> : here's sidebar</li></a>
+          <a href='#'><li> : here's sidebar</li></a>
+          <a href='#'><li> : here's sidebar</li></a>
+          <a href='#'><li> : here's sidebar</li></a>
+          <a href='#'><li> : here's sidebar</li></a>
+          <a href='#'><li> : here's sidebar</li></a>
+        </ul>
+      </div>
+    </div>
+  );
 }
 
-export default SideBar;
+export default Sidebar;

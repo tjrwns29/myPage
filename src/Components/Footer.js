@@ -7,13 +7,13 @@ class Footer extends Component{
         <div className='footerCon'></div>
         <div className='footer'>
           <div className='footerContents'>
-          <div>Here's footer</div>
-          <div>Here's footer</div>
-          <div>Here's footer</div>
-          <div>Here's footer</div>
-          <div>Here's footer</div>
-          <div>Here's footer</div>
-          <div>Here's footer</div>
+          <div className='copyRight'>
+            <p>CopyRight : dhdntjdnrwndns</p>
+            </div>
+          <div className='call'>
+          <p>instagram : seo_ok_jun</p>
+          <p>e-mail : ksh730506@naver.com</p>
+          </div>
           </div>
         </div>
       </div>

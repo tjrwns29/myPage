@@ -54,13 +54,38 @@ a {
   border-top: 3px solid black;
   height: 200px;
   position: absolute;
-  width: 70%;
+  width: 80%;
   bottom: -60px;
   right: 0;
 }
 
 .footerContents {
-  margin-top: 40px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.copyRight {
+  display: flex;
+  justify-content: center;
+}
+
+.copyRight > p {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.call {
+  display: flex;
+  justify-content: center;
+}
+
+.call > p {
+  margin-right: 30px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .Time {
@@ -69,7 +94,7 @@ a {
   background-color: black;
   color: white;
   text-align: center;
-  width: 70%;
+  width: 80%;
   padding: 10px;
 }
 
@@ -78,21 +103,21 @@ a {
 }
 
 .container {
-  margin-left: 30%;
+  margin-left: 20%;
 }
 /* sideBar */
 .sidebar {
   position: fixed;
   background-color: black;
   height: 100%;
-  width: 30%;
+  width: 20%;
   top: 0;
   overflow: auto;
 }
 
 .Sidecontainer {
   width: 90%;
-  margin: 0 auto;
+  margin: 0 auto;;
 }
 
 .sideBarBtn {
@@ -109,9 +134,17 @@ a {
 
 .sideBarContent {
   margin: 10px 0px 50px 30px;
+  transition: 2s;
 }
 
 .sideBarContent > a li{
   color: white;
   margin-bottom: 10px;
+}
+
+.hideContents {
+  margin: 10px 0px 50px 30px;
+  transition: 2s;
+  margin-left: -300px;
+  color: white;
 }

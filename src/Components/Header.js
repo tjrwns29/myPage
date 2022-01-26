@@ -4,10 +4,7 @@ class Header extends Component{
   render() {
     return(
       <div className='header'>
-        <div>here's Header</div>
-        <div>here's Header</div>
-        <div>here's Header</div>
-        <div>here's Header</div>
+        <h1>Mechanical Engineering 21</h1>
       </div>
     );
   }

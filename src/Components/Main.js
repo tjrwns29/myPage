@@ -20,32 +20,6 @@ class Main extends Component{
         <div>here's Main</div>
         <div>here's Main</div>
         <div>here's Main</div>
-        <div>here's Main</div>
-        <div>here's Main</div>
-        <div>here's Main</div>
-        <div>here's Main</div>
-        <div>here's Main</div>
-        <div>here's Main</div>
-        <div>here's Main</div>
-        <div>here's Main</div>
-        <div>here's Main</div>
-        <div>here's Main</div>
-        <div>here's Main</div>
-        <div>here's Main</div>
-        <div>here's Main</div>
-        <div>here's Main</div>
-        <div>here's Main</div>
-        <div>here's Main</div>
-        <div>here's Main</div>
-        <div>here's Main</div>
-        <div>here's Main</div>
-        <div>here's Main</div>
-        <div>here's Main</div>
-        <div>here's Main</div>
-        <div>here's Main</div>
-        <div>here's Main</div>
-        <div>here's Main</div>
-        <div>here's Main</div>
       </div>
     );
   }
