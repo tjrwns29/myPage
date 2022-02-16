@@ -1,0 +1,59 @@
+.sideBar {
+  position: fixed;
+  top: 0;
+}
+.beforeSideBarWindow {
+  background-color: black;
+  height: 1000px;
+  width: 500px;
+  z-index: 1212;
+  transition: .5s;
+  margin-left: -600px;
+}
+.afterSideBarWindow {
+  background-color: black;
+  height: 1000px;
+  width: 500px;
+  z-index: 1212;
+  transition: .5s;
+  margin-left: 0px;
+}
+.sideBarOpenBtn {
+  font-size: 30px;
+  position: inherit;
+  z-index: -123;
+}
+.sideBarCloseBtn {
+  font-size: 30px;
+  top: 0;
+  color: white;
+  margin-left: 92%;
+}
+.sideBarCloseBtn > svg {
+  transform: rotate(180deg);
+}
+.sideBarContents {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.dropDownName {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: white;
+}
+/* .beforeDropDownContents {
+  transition: .5s;
+  display: none;
+}
+.afterDropDownContents {
+  display: block;
+  transition: .5s;
+} */
+.dropDownContents > a > li {
+  margin-left: 30px;
+  margin-bottom: 8px;
+}
+.dropDownContents > a {
+  color: white;
+}

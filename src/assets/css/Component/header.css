@@ -1,0 +1,31 @@
+/* header */
+.nowTime {
+  text-align: center;
+  position: fixed;
+  margin: 0 auto;
+  width: 100%;
+  color: black;
+  border-bottom: 1px solid black;
+  padding: 10px 0px 10px 0px;
+  top: 0;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.pageTitle {
+  text-align: center;
+  margin-top: 60px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+}
+
+.pageMainTitle {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.pageSubTitle {
+  margin-bottom: 5px;
+}
